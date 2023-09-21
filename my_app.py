@@ -1,14 +1,10 @@
 from pyQt5.QtCore import Qt
 from pyQt5.Qwidgets import QApplication, QWidget, QPushButton, QLabel, QVBoxLayout
- 
+from instr import *
 app = QApplication([])
 main_win = QWidget
 main_win.show()
 app.exec_()
-
-txt_title = "Health"
-win_x, win_y = 200, 100
-win_width, win_height = 1000, 600
 
 class MainWin(QWidget):
     def __init__(self):
